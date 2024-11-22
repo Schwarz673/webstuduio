@@ -1,0 +1,52 @@
+* {
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+:root {
+  --main-color: #2196f3;
+  --title-color: #212121;
+  --text-color: #757575;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+ul {
+  list-style: none;
+}
+section {
+  margin-bottom: 94px;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+  section {
+    margin-bottom: 60px;
+  }
+}

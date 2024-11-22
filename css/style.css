@@ -1,0 +1,418 @@
+.main-logo {
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0);
+}
+.logo-blue {
+  font-family: "Raleway";
+  color: var(--main-color);
+}
+
+.menu_link {
+  font-weight: 500;
+  line-height: 1;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.menu_link:hover {
+  color: var(--main-color);
+}
+
+.menu_call:hover {
+  color: var(--main-color);
+}
+
+.menu_call {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.menu_box {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 93px;
+}
+
+.menu_wrapper {
+  display: flex;
+  gap: 50px;
+}
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("../Img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero_title {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  max-width: 700px;
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.main-btn {
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 10px 32px;
+  color: #fff;
+  background-color: var(--main-color);
+}
+.advan_list {
+  display: flex;
+  gap: 30px;
+}
+
+.advan_ {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+.advan_text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.advan_box {
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  border-radius: 4px;
+  background: #f5f4fa;
+}
+
+.advan_title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.main-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.work_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team_item {
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  max-width: 260px;
+}
+
+.team_img {
+  width: 100%;
+}
+
+.team_subtitle {
+  margin-bottom: 10px;
+  padding-top: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.team_text {
+  padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #757575;
+}
+
+.team_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.team_link img {
+  width: 20px;
+  height: 20px;
+}
+
+.team_link:hover {
+  background-color: var(--main-color);
+}
+
+.team_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+.clients_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
+
+.menu_btn {
+  display: none;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+.logo-white {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.footer_address {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+.footer_call {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.footer_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.portfolio_list {
+  margin-top: 50px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.portfolio_item {
+  border: 1px solid #eee;
+}
+
+.footer_wrapper {
+  text-align: center;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+  padding: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 530px;
+  height: 580px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+#modal_btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+  display: none;
+}
+
+.modal_title {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-style: 20px;
+  text-align: center;
+  color: #212121;
+}
+
+.modal_label {
+  font-size: 12px;
+  color: #757575;
+}
+
+.modal_input {
+  font-size: 12px;
+  color: rgba(117, 117, 117, 0.5);
+
+  display: inline-block;
+  padding-left: 35px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.modal textarea {
+  padding-top: 12px;
+  resize: none;
+  height: 120px;
+}
+
+.modal_label-send span {
+  font-style: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.modal_label-send a {
+  text-decoration: underline;
+  color: #2196f3;
+}
+
+.modal_label-send {
+  display: inline-block;
+  margin-bottom: 42px;
+}
+/* hjkjjhkj */
+.modal_label {
+  position: relative;
+}
+
+.modal_label img {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer_box {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .footer_wrapper {
+    text-align: center;
+  }
+
+  .clients_wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .team_list,
+  .work_list,
+  .advan_list {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .team_item,
+  .work_item,
+  .work_img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .mine_title {
+    font-size: 28px;
+  }
+  .advan_title {
+    text-align: center;
+  }
+  .hero_title {
+    font-size: 28px;
+    line-height: 168%;
+  }
+  .hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu_btn {
+    display: block;
+  }
+
+  .menu_box {
+    justify-content: space-between;
+  }
+  .modal {
+    width: 80%;
+  }
+}
